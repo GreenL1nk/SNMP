@@ -42,6 +42,19 @@ password=password                       # Пароль от веб-интерф�
 - Сброс аварий: `snmpset -v 2c -c public 127.0.0.1 .1.3.6.1.4.1.99999.3.5.0 i 1`
 - TRAP: Запустите `snmptrapd -f -Lo` для прослушки.
 
+## Примеры получения данных 
+- о текущей температуре в помещении: <img width="306" height="213" alt="image" src="https://github.com/user-attachments/assets/51acf38f-5dcc-424e-b89c-865bc5436045" />
+-----
+- получение данных об авариях (в виде таблицы) <img width="310" height="312" alt="image" src="https://github.com/user-attachments/assets/496879a9-b53f-4774-b5ca-ed4310413f64" />
+-----
+- установка нового значения <img width="346" height="369" alt="image" src="https://github.com/user-attachments/assets/64763ab9-d3a9-4af3-8abd-96a7720cfdb1" />
+- вводим значение в поле value и нажимаем ок <img width="587" height="393" alt="image" src="https://github.com/user-attachments/assets/9d52e800-8f56-4505-9b6f-24c61ef4c175" />
+-----
+- получение сообщений об авариях Tools --> Trap Receiver <img width="320" height="60" alt="image" src="https://github.com/user-attachments/assets/aa8379cd-5bdf-4386-8433-ffc7593caee6" />
+
+
+
+
 ## Примеры ввода данных для изменяемых объектов
 
 - **acName** (имя кондиционера)  
