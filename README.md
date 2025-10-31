@@ -30,6 +30,12 @@ password=password                       # Пароль от веб-интерф�
 Агент работает по SNMP v2c, порт 161, community: `public` (или из config).
 
 ### Через iReasoning MIB Browser (можно использовать любую программу которая поддерживает SNMP)
+
+Настройки:
+1. <img width="881" height="841" alt="image" src="https://github.com/user-attachments/assets/c48f0dd7-4205-464c-9314-8c5562238007" />
+2. <img width="1439" height="842" alt="image" src="https://github.com/user-attachments/assets/9df5c285-6854-44cd-b253-17b03bffe9cd" />
+
+
 1. Укажите IP: 192.168.0.250 (ip машины, где крутится java приложение), порт: 161, community: public. (или из config)
 2. Загрузите MIB.
 3. Выполните SNMP Walk по `.1.3.6.1.4.1.99999`.
